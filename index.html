@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Simple App </title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+	<div ng-app="myApp">
+		<div ng-controller="ParseController">
+			<input ng-model="expr" type="text" placeholder="Type something" />
+			<h2>{{ parsedValue }}</h2>
+		</div>
+	</div>
+</body>
+</html>
